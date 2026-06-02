@@ -43,6 +43,17 @@ The voice to default to (see `house_style.md`): **result-first, first-person, ac
 
 IMRAD (Introduction–Methods–Results–and–Discussion) is the backbone; full per-section guidance, tense tables, and study-type variants (clinical trials, systematic reviews, case reports, observational studies, ML-conference Intro–Method–Experiments–Conclusion) are in `references/imrad_structure.md`. Section proportions and length targets vary by venue; check `journal_guidelines.md` for the target.
 
+### Narrative arc (OCAR) — the principle behind IMRAD
+
+IMRAD is the *container*; **story structure** is what makes it hold a reader. A draft that satisfies IMRAD but has no arc is a data dump. Underneath every section sits the **OCAR** spine — **Opening** (the broad problem and characters), **Challenge** (the specific question), **Action** (Methods + Results + most of the Discussion), **Resolution** (how understanding changed). Full treatment in **`references/narrative_craft.md`**; the load-bearing moves:
+
+- **Choose the assembly by audience patience:** specialist journals → straight **OCAR**; *Nature/Science* → **LDR** (a strong lead up front); proposals → **ABDCE** (hook by page one).
+- **The paper is an hourglass:** open wide → narrow to Challenge/Methods/Results → widen back out in the Resolution. **Match opening width to resolution width** — opening wider than the resolution over-promises (the worst error); narrower under-sells.
+- **The Introduction frames ignorance, not knowledge** (a gap, not a literature review). Diagnostic: prefer "**X occurs (Smith 2003)**" over "**Smith (2003) found X**"; ban "little is known about X"; never sell a method before you sell the problem.
+- **The Challenge is a question, not a list of objectives** — "to learn X, we did Y," with "to learn X" load-bearing.
+- **The Resolution synopsizes → synthesizes (answers the Challenge) → contextualizes (closes back to the Opening).** Never end on "more research is needed" or a brand-new idea.
+- **OCAR is fractal** — every section and paragraph is its own arc, with the point in a power position (start or end).
+
 ### Section guidance (summary — full templates in `references/section_playbook.md`)
 
 **Abstract.** Flowing paragraph (unless the journal mandates a structured one). General method = the **Nature seven-move summary paragraph** (basic introduction → detailed background → specific problem → "Here we show" main result → results in context → general context → optional broader perspective), an hourglass of ≈190–250 words; full sentence-by-sentence guide, worked example, and venue word limits in `references/abstract_writing.md`. The house-style **5-beat abstract** (`house_style.md`) is the compressed, domain-tuned form of the same arc: macro context with a prior-estimate anchor → the gap → brief method naming the key differentiator → **headline result + interval in one sentence** → close on a named implication. Per family:
@@ -124,10 +135,11 @@ Over-claiming a result beyond its uncertainty; missing/weak uncertainty quantifi
 ## References
 - `references/house_style.md` — **the default house voice (authoritative); read first.**
 - `references/imrad_structure.md` — IMRAD detail, tense tables, study-type and venue variants.
+- `references/narrative_craft.md` — the story layer beneath IMRAD: OCAR, the four structures (OCAR/LDR/ABDCE/LD), the hourglass, the Funnel/knowledge-gap, the Challenge, the Action, and the Resolution. Adapted from Schimel, *Writing Science*.
 - `references/abstract_writing.md` — the Nature seven-move abstract; sentence-by-sentence guide, word limits, checklist.
 - `references/citation_styles.md` — APA / AMA / Vancouver / Chicago / IEEE (+ ACS/NLM) in-text and reference-list formats.
 - `references/figures_tables.md` — figure-vs-table decisions and display-item best practices.
-- `references/writing_principles.md` — clarity, conciseness, accuracy, objectivity.
+- `references/writing_principles.md` — clarity, conciseness, accuracy, objectivity; plus sentence craft (character/action, topic vs. stress positions, the given→new contract, fuzzy verbs, zombie nouns), condensing, and the SCFL editing-pass order.
 - `references/reporting_guidelines.md` — CONSORT/STROBE/PRISMA/ARRIVE etc. (light, general-purpose layer).
 - `references/section_playbook.md` — section-by-section templates and worked phrasings for both families, plus cover-letter and reviewer-response templates.
 - `references/journal_guidelines.md` — per-journal hard specs (length, abstract, figures, refs, data policy).

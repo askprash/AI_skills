@@ -625,6 +625,114 @@ But: "The participants were heterogeneous." (Plural subject)
 provided to the third group.")
 ```
 
+## Sentence craft and revision (Schimel, *Writing Science*)
+
+The principles above cover *what* to fix. This section covers the underlying mechanics — how a
+sentence carries meaning, how to cut, and in what order to revise. (The macro story arc — OCAR,
+the Funnel, the Resolution — lives in `narrative_craft.md`.)
+
+### Character in the subject, action in the verb
+
+A sentence is the shortest possible story. Put the **real character in the subject** and the
+**real action in the verb**, and keep the two **close together and near the start**. The longer
+the gap between actor and action, the duller and more confusing the sentence.
+
+```
+Buried:  "The qualitative agreement between caribou's preference for young leaves and the
+          trend for protein to decline with leaf age supports the hypothesis that caribou
+          migration is driven by leaf-out patterns rather than by weather."
+Fixed:   "Caribou prefer to feed on young, protein-rich leaves, supporting the hypothesis
+          that migration is driven not by weather but by the patterns of leaf-out and
+          maturation." (one-word topic; verb immediately after; "say more by saying less.")
+```
+
+Don't split subject and verb with a parenthetical — move the interrupting phrase to the end or
+the middle.
+
+### Topic position and stress position
+
+Every sentence has two power positions (terms from Joseph Williams, *Style*):
+- **Topic position (the start)** = what the sentence is *about*. Open with **old / known
+  information** — a schema the reader already holds. New information in the topic position
+  confuses readers (you signal "old" but deliver "new").
+- **Stress position (the end of the main clause)** = the emphatic slot. Put the **key message
+  and any new term** there.
+- Weighting follows the **2-3-1 rule**: end (stress) strongest, start (topic) next, middle
+  weakest. Bury qualifiers in the middle.
+
+The *same facts* in different positions tell different stories — so choose the story first,
+then structure the sentence to tell it. To **define** a new term, move it to the stress
+position; to treat it as familiar, put it in the topic position.
+
+### Flow: the given→new contract
+
+Chain sentences so each **topic ties back to the previous sentence's stress**. This is the
+given→new contract, and it is what creates flow:
+- **Stress → topic linking makes a STORY. Topic → topic linking makes a LIST.** (Stress →
+  stress makes confusion.)
+- Links need not be exact repetition — grab the *idea* ("bonds" → "bond strength").
+- Link paragraphs the same way: open a new paragraph by **reaching back and grabbing a
+  word/concept** from the prior paragraph's resolution.
+
+```
+List (choppy):  "Molecules are comprised of covalently bonded atoms. Molecules' reactions are
+                 controlled by bond strength. Molecules sometimes react slower than expected."
+Story (flows):  "Molecules are comprised of covalently bonded atoms. Bond strength controls a
+                 molecule's reactions. Sometimes, however, those reactions are slower than
+                 bond strength would predict."
+```
+
+When flow breaks, diagnose the *real* problem (usually a mixed-up arc) top-down — don't patch a
+local seam with passive voice.
+
+### Energize: kill fuzzy verbs and zombie nouns
+
+Three things drain energy from a verb — **passive voice, fuzzy verbs, and nominalizations**.
+(See the active-voice and nominalization tables earlier in this file; the additions below
+sharpen them.)
+- **Fuzzy verbs** say something happened but not *what*: *occur, affect, facilitate, perform,
+  conduct, implement*. Replace with concrete action verbs: *increase, invade, inhibit, disrupt,
+  accelerate, regulate*. The **worst place for a fuzzy verb is a hypothesis** — a wishy-washy
+  hypothesis is unfalsifiable; make it a testable declarative statement.
+- **Nominalizations ("zombie nouns")** turn a verb into a noun that then needs a weak verb to
+  prop it up — *conducted an investigation* (← investigated), *a failure to reproduce* (← fail
+  to reproduce), *there was a difference* (← differed). They are **necessarily paired with a
+  fuzzy verb**, because the action has moved into the noun. As a rule, turn them back into verbs.
+  Keep a nominalization only when it *names a schema your audience already holds* (gene
+  expression, ecosystem services) or encapsulates prior text ("the arguments developed above").
+
+### Condensing: prune, then shake
+
+Brevity comes from **selection, not compression** — cut whole ideas and blocks first, *then*
+cut words. Target a **10–20% reduction** on a revision pass. Five reliable delete-key targets:
+1. **Redundancies** ("a total of 50" → "50"; "completely eliminate" → "eliminate").
+2. **Statements of the obvious.**
+3. **Empty modifiers and amplifiers** (*very, highly, dramatically*) — replace with a concrete
+   number, or delete.
+4. **Metadiscourse / throat-clearing** ("it is important to note that…", "in this study we
+   found that…").
+5. **Verbosity** ("due to the fact that" → "because"; "in order to" → "to").
+
+Word test: **"Would I use this word talking to a friend?"** Spoken and written English should
+differ in *sentence structure, not vocabulary*. Prefer the short Anglo-Saxon word over the long
+Latinate one (*use* not *utilize*, *show* not *demonstrate*, *start* not *initiate*) — unless
+the longer word's **connotation** genuinely differs (*consume* ≠ *eat*).
+
+### Revise in passes — Structure → Clarity → Flow → Language (SCFL)
+
+Edit **top-down**, in roughly this order, cycling back as needed (fixing one level can force a
+change at another):
+1. **Structure** — is the story there? OCAR elements present and in the right slots?
+2. **Clarity** — does each paragraph/section make one clear point?
+3. **Flow** — do sentences and paragraphs chain (given→new)?
+4. **Language** — sentences, words, grammar.
+
+**Revising is not proofreading.** Expect multiple drafts — a good piece is often a third draft.
+Read the near-final draft **aloud**, from a clean printed copy, standing away from the desk:
+"your eyes may skip over an awkward break, but not your ears." Story beats grammar — "you can
+hire an editor for the language; you can't hire a scientist for the science" — so fix structure
+before you polish words.
+
 ## Revision Checklist
 
 ### Content Level
@@ -647,6 +755,10 @@ provided to the third group.")
 - [ ] Is sentence structure varied?
 - [ ] Are there no dangling modifiers?
 - [ ] Do subjects and verbs agree?
+- [ ] Real character in the subject, real action in the verb, the two kept close?
+- [ ] Key message / new term in the stress position (end of the main clause)?
+- [ ] Do sentences chain stress→topic (a story), not topic→topic (a list)?
+- [ ] Fuzzy verbs and zombie nouns turned back into concrete verbs?
 
 ### Word Level
 

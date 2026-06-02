@@ -20,7 +20,7 @@ A thinking partner for the front of the research pipeline: generating ideas, fin
 
 **Phase 3 — Connect.** Look for threads across the ideas — which combine, which share a mechanism, which is the surprising link between two of them. The connection is often more valuable than any single idea.
 
-**Phase 4 — Converge (constructive evaluation).** For the few promising ideas: what's the smallest experiment or pilot calculation? what data/tools already exist? what's the biggest obstacle and a way around it? Preserve the innovative core while making it tractable — don't sand off what made it interesting.
+**Phase 4 — Converge (constructive evaluation).** For the few promising ideas: what's the smallest experiment or pilot calculation? what data/tools already exist? what's the biggest obstacle and a way around it? Preserve the innovative core while making it tractable — don't sand off what made it interesting. A useful move here is **"elaborate and slash"**: first over-interpret the idea out to its fringes (and deliberately listen to the outliers and quiet anomalies — the important story often hides there, not in the average), then cut back with Occam's razor to the *simple* core that survives. Distinguish *simple* (captures the essence) from *simplistic* (dodges it).
 
 **Phase 5 — Land it.** Summarize the strongest directions, the novel connections found, concrete next steps (a paper to read, a back-of-envelope estimate to run, a collaborator to call), and — importantly — the **likely venue** (see below).
 
@@ -59,6 +59,8 @@ Methods are tools, not rituals — sometimes the best move is just curious quest
 ## Finding the gap — push against the state of the art
 
 Good ideation is not only generative; it's adversarial toward the existing literature. Take the current frontier and interrogate it: what did the landmark estimate assume that newer data could relax? which uncertainty did the authors themselves flag as dominant (that sentence is often a ready-made project)? what changed in the world since (new data, a natural experiment, a new technology) that lets you redo it? what metric or scale has the result never been expressed in? where do two landmark papers disagree, and can you design the study that reconciles them? Then state the gap the way a paper would — a specific, enumerated limitation of prior work. The field exemplars to push against are catalogued in `references/atmospheric_climate_style.md` §H and `references/aiaa_engineering_style.md`; the full gap-finding procedure is in `references/ideation_methods.md`.
+
+Two framing checks keep the gap real. First, **shift from "what's my answer?" to "what's my question?"** — a good gap is an *unknown within the known*, something the field doesn't realize it can't yet explain. If you can't pose it as a concrete question, it isn't a gap yet. Second, the **novelty test**: answering an *old* question in a new system, or with new technology, or both, is **not novel** — it merely fills in the information base, and a leading journal will say so "regardless of whether the work was done in India or Indiana." To be novel, ask the *new* question the prior work left on the table — *why* did the pattern differ, what's the mechanism, how does it interact with other factors — not just "does the known pattern also hold here?"
 
 ## Venue-aware framing — decide early, it shapes the work
 

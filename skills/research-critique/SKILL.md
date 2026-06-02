@@ -59,6 +59,26 @@ A modeling or experimental paper that skips V&V is desk-rejected; the editorial 
 
 Correlation treated as causation; overgeneralization beyond the sample/scenario; cherry-picked comparisons; ignoring a contradictory prior estimate without explanation; sign of an uncertain forcing asserted without justification. Distinguish what was *found* from what it *means*, and statistical from practical significance. For the deeper rigor catalog — p-hacking, HARKing, multiple testing, underpowering, figure/image integrity, citation verification — see `references/statistical_pitfalls.md`, `references/figure_integrity.md`, and `references/common_issues.md`.
 
+## Story-structure failure modes (Schimel)
+
+A paper can be rigorous and still get rejected because it doesn't *read* as a story — referees feel adrift and lose trust. Read the draft once for structure and attack these (the constructive version is in `research-writing` → `references/narrative_craft.md`):
+
+- **No explicit Challenge.** The Introduction states objectives ("our objectives were…") instead of a **question** ("to learn X, we did Y"). If a reader can't say in one sentence what question drove the work, neither can a referee — flag it. The most common structural flaw.
+- **Introduction is a literature review, not a gap.** It piles up what we *know* instead of framing the *hole*. Tell: sentences whose subjects are authors ("Smith (2003) found X") rather than nature ("X occurs (Smith 2003)"); "little is known about X"; selling a method before establishing the problem (the "bizzwidget" error).
+- **Opening gives no direction or misdirection** — the first paragraph points somewhere the paper doesn't go, or rehearses textbook material. **Hourglass mismatch:** the opening promises broader than the resolution delivers (over-claiming) or narrower (under-selling).
+- **Action is a data dump.** Results report significance without **effect sizes** ("significantly increased" with no magnitude); interpretation is tangled into the data; the pattern is buried under numbers.
+- **Resolution killers** (endings are power positions — these waste them): *weak* (asserts importance without saying how), *distracting* (a truism or a brand-new idea never set up earlier), or *self-undermining* — the reflexive **"more research is needed."** Also flag a Resolution that **summarizes without synthesizing** or never closes back to the Opening.
+
+### Limitations: "but, yes," not "yes, but"
+
+How a draft handles its own weaknesses is itself a review target — and the easiest thing to fix:
+
+- **Invert "yes, but" into "but, yes."** The default is to give the good results, then end on the caveat — which makes the caveat the take-home message. Instead, address the limitation **early**, constrain the conclusions to fit it, and **end on a "yes."** Flag any Discussion/abstract/Conclusions that ends on a caveat.
+- **Keep limitations out of the power positions** — never in the opening or resolution of the Discussion/Conclusions. "You should never make a limitation *the* conclusion."
+- **Re-scope the question before defending the method.** Many "limitations" are really a question–method mismatch; narrowing the claim to what the method actually supports often dissolves the objection (and a smaller filled gap beats none).
+- **Pre-empt the obvious objection.** For every weakness a referee will obviously raise, disarm it at the earliest point it becomes relevant — "if you avoid mentioning the negatives, reviewers will find them anyway, and probably recommend rejection."
+- **Calibration dial:** *too much confidence blinds you to the limitations; too much humility blinds you to the accomplishments.* Aim between — honest about the blemish, unapologetic about the contribution.
+
 ## Delivering the critique
 
 Lead with genuine strengths (so you don't gut a real strength while fixing a weakness). Rank issues: **Critical** (threatens the main conclusion) / **Important** (affects interpretation) / **Minor**. Be specific — quote the sentence, point to the figure or line, and give a concrete fix, not just a complaint. Be proportionate and consistent. The aim is a paper that survives review, so frame everything as "here's what a referee will say, and here's how to close it now."
