@@ -1,6 +1,6 @@
 ---
 name: matplotlib
-description: Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.
+description: Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, reproducible vector export, and per-journal sizing/DPI, use the research-figures skill (which builds on matplotlib).
 license: https://github.com/matplotlib/matplotlib/tree/main/LICENSE
 metadata:
     skill-author: K-Dense Inc.
@@ -341,6 +341,7 @@ Matplotlib integrates well with:
 - **Seaborn** - High-level statistical visualizations built on matplotlib
 - **Jupyter** - Interactive plotting with `%matplotlib inline` or `%matplotlib widget`
 - **GUI frameworks** - Embedding in Tkinter, Qt, wxPython applications
+- **research-figures skill** - For publication-ready, journal-sized, reproducible figures (vector PDF/PNG export, colorblind-safe palettes, per-journal DPI/column widths), use the `research-figures` skill, which builds on matplotlib and adds journal-aware export helpers. Reach for this skill (matplotlib) when `research-figures` points you here for low-level, fine-grained control.
 
 ## Common Gotchas
 

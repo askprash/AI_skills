@@ -1,0 +1,53 @@
+# Print / publication variant of prash_slides.mplstyle
+# Sized for journal column widths; fonts 7-9 pt; grid off; thinner lines.
+# Derived from prash_slides.mplstyle — for slides use the _slides variant.
+
+font.family: sans-serif
+font.sans-serif: Arial, Helvetica, DejaVu Sans
+
+axes.linewidth: 0.6
+axes.titlesize: 9
+axes.titlepad: 4
+axes.labelsize: 8
+axes.unicode_minus: False
+axes.spines.top: False
+axes.spines.right: False
+
+xtick.labelsize: 7
+ytick.labelsize: 7
+xtick.major.width: 0.6
+ytick.major.width: 0.6
+xtick.major.size: 3
+ytick.major.size: 3
+xtick.minor.width: 0.4
+ytick.minor.width: 0.4
+xtick.minor.size: 1.5
+ytick.minor.size: 1.5
+xtick.direction: in
+ytick.direction: in
+
+axes.grid: False
+grid.linestyle: --
+grid.linewidth: 0.3
+grid.alpha: 0.3
+grid.color: 0.75
+
+lines.linewidth: 1.0
+lines.markersize: 3.5
+
+legend.fontsize: 7
+legend.framealpha: 0.8
+legend.shadow: False
+legend.title_fontsize: 8
+legend.frameon: True
+legend.edgecolor: 0.7
+legend.borderpad: 0.4
+legend.handlelength: 1.5
+
+figure.edgecolor: white
+figure.facecolor: white
+savefig.bbox: tight
+savefig.pad_inches: 0.01
+
+# Okabe-Ito colorblind-safe cycle (8 colors)
+axes.prop_cycle: cycler('color', ['0072B2', 'D55E00', '009E73', 'CC79A7', '56B4E9', 'E69F00', 'F0E442', '000000'])
