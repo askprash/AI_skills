@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 360"
+     font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555555"/>
+    </marker>
+  </defs>
+
+  <!-- boxes: pale Okabe-Ito fills with strong same-hue strokes (grayscale-legible) -->
+  <g stroke-width="1.6">
+    <rect x="30"  y="46"  width="160" height="60" rx="9" fill="#D6E6F2" stroke="#0072B2"/>
+    <rect x="30"  y="150" width="160" height="60" rx="9" fill="#D6E6F2" stroke="#0072B2"/>
+    <rect x="260" y="98"  width="160" height="60" rx="9" fill="#D2EFE6" stroke="#009E73"/>
+    <rect x="490" y="98"  width="160" height="60" rx="9" fill="#D2EFE6" stroke="#009E73"/>
+    <rect x="720" y="98"  width="160" height="60" rx="9" fill="#F6D9CC" stroke="#D55E00"/>
+    <rect x="490" y="255" width="160" height="60" rx="9" fill="#F9E7C7" stroke="#E69F00"/>
+  </g>
+
+  <!-- solid flow connectors -->
+  <g fill="none" stroke="#555555" stroke-width="1.6" marker-end="url(#arrow)">
+    <line x1="190" y1="76"  x2="256" y2="118"/>
+    <line x1="190" y1="180" x2="256" y2="140"/>
+    <line x1="420" y1="128" x2="486" y2="128"/>
+    <line x1="650" y1="128" x2="716" y2="128"/>
+  </g>
+
+  <!-- dashed uncertainty branch -->
+  <g fill="none" stroke="#7a7a7a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow)">
+    <path d="M340,158 V285 H486"/>
+    <path d="M650,285 H800 V162"/>
+  </g>
+
+  <!-- TEXT: exactly one <text> element per label; a multi-line label uses
+       <tspan> children inside the SAME <text>, never separate text boxes -->
+  <g fill="#1a1a1a" font-size="14" text-anchor="middle">
+    <text x="110" y="81">ERA5 meteorology</text>
+    <text x="110" y="185">Flight inventory</text>
+    <text x="340" y="133">Contrail model</text>
+    <text x="570" y="133">Radiative transfer</text>
+    <text x="800" y="133">Aviation ERF</text>
+    <text x="570" y="279">
+      <tspan x="570">Sensitivity /</tspan>
+      <tspan x="570" dy="1.2em">uncertainty</tspan>
+    </text>
+  </g>
+
+  <!-- edge labels (also single text elements) -->
+  <g fill="#555555" font-size="12" font-style="italic">
+    <text x="356" y="305" text-anchor="start">perturb inputs</text>
+    <text x="812" y="226" text-anchor="start">5–95% range</text>
+  </g>
+</svg>

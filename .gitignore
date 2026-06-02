@@ -6,6 +6,35 @@ __pycache__/
 # C extensions
 *.so
 
+# Skill specific things. 
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Python (these skills ship .py scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editor / OS cruft
+*.swp
+.idea/
+.vscode/
+
+# LaTeX build artifacts (research-schematics / research-writing have .tex)
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+
 # Distribution / packaging
 .Python
 build/
@@ -216,3 +245,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local rendered examples for visual review (not part of the skills)
+examples_preview/
